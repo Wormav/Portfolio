@@ -2,7 +2,7 @@ import Image from "next/image"
 import { SectionWrapper } from "@/components/Section"
 import { AiFillGithub, AiFillLinkedin, AiOutlineMail } from "react-icons/ai"
 
-import appImage from "@/images/github.png"
+import appImage from "/images/github.png"
 
 export function Hero() {
   return (

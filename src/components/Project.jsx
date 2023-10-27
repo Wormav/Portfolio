@@ -3,8 +3,8 @@ import { BaseSpotlightCard } from "./SpotlightCard"
 import Image from "next/image"
 import playtrackerImg from "/images/playtracker.png"
 import CEImg from "/images/ce.png"
-import SelfServiceImg from "/images/SelfService.png"
-import GroupomaniaImg from "/images/Groupomania.jpeg"
+import SelfServiceImg from "/images/selfService.png"
+import GroupomaniaImg from "/images/groupomania.jpeg"
 import { AiOutlineLink } from "react-icons/ai"
 
 function FeatureCard({ children }) {
