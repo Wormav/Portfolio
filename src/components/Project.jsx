@@ -2,7 +2,7 @@ import { SectionWrapperRounded, SectionHeading, SectionTitle, SectionDescription
 import { BaseSpotlightCard } from "./SpotlightCard"
 import Image from "next/image"
 import playtrackerImg from "@/images/playtracker.png"
-import CEImg from "@/images/ce.png"
+import CEImg from "../images/ce.png"
 import SelfServiceImg from "@/images/SelfService.png"
 import GroupomaniaImg from "@/images/Groupomania.jpeg"
 import { AiOutlineLink } from "react-icons/ai"
