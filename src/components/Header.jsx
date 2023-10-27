@@ -2,6 +2,7 @@
 
 import { useState } from "react"
 import { Bars2Icon, XMarkIcon } from "@heroicons/react/24/outline"
+import { SpotlightButton } from "@/components/SpotlightButton.jsx"
 
 import { SectionWrapper } from "@/components/Section"
 import { Logo } from "@/components/Logo"
@@ -33,11 +34,13 @@ function Navigation() {
           {link.title}
         </a>
       ))}
-      <a
-        href="#"
-        className="inline-block rounded-full bg-white/10 px-4 py-2 text-sm backdrop-blur transition duration-300 hover:bg-white/15">
-        Get started
-      </a>
+      <SpotlightButton className="h-8 w-auto cursor-pointer">
+        <span className="font-mona relative mt-px bg-gradient-to-b from-white/25 to-white bg-clip-text text-sm font-medium text-transparent transition-all duration-200">
+          <a href="/documents/CV_jeremy_lorette.pdf" download>
+            Télécharger mon CV
+          </a>
+        </span>
+      </SpotlightButton>
     </div>
   )
 }
@@ -56,6 +59,13 @@ function MobileMenu({ showMenu }) {
               </a>
             </li>
           ))}
+          <SpotlightButton className="h-8 w-auto cursor-pointer">
+            <span className="font-mona relative mt-px bg-gradient-to-b from-white/25 to-white bg-clip-text text-sm font-medium text-transparent transition-all duration-200">
+              <a href="/documents/CV_jeremy_lorette.pdf" download>
+                Télécharger mon CV
+              </a>
+            </span>
+          </SpotlightButton>
         </ul>
       </div>
     )

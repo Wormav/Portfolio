@@ -47,7 +47,7 @@ function Playtracker() {
           </a>
         </div>
         <div className="flex justify-between">
-          <span className="font-bold">React</span>
+          <span className="font-bold">React.js</span>
           <span className="font-bold">Node.js</span>
           <span className="font-bold">Prisma</span>
           <span className="font-bold">PostgresSQL</span>
@@ -77,7 +77,7 @@ function CSE() {
           src={CEImg}
         />
         <div className="mt-5 flex justify-between">
-          <span className="font-bold">React</span>
+          <span className="font-bold">React.js</span>
           <span className="font-bold">Node.js</span>
           <span className="font-bold">Prisma</span>
           <span className="font-bold">PostgresSQL</span>
@@ -142,7 +142,7 @@ function Groupomania() {
           </a>
         </div>
         <div className="mt-5 flex justify-between">
-          <span className="font-bold">React</span>
+          <span className="font-bold">React.js</span>
           <span className="font-bold">Node.js</span>
           <span className="font-bold">MySQL</span>
           <span className="font-bold">Express</span>

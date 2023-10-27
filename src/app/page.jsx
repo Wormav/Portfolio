@@ -6,7 +6,7 @@ import { Skills } from "@/components/Skills"
 import { Stack } from "@/components/Stack"
 
 export const metadata = {
-  title: "Portfolio Jérémy Lorette",
+  title: "Jérémy Lorette",
   description: "Découvrez mes projets et mes compétences !",
 }
 

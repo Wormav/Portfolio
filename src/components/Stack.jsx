@@ -109,7 +109,7 @@ function ResponsesFeature({ className }) {
       <FeatureCardBody>
         <FeatureCardTitle>Frontend</FeatureCardTitle>
         <FeatureCardDescription>
-          Next.js, couplé à React, offre un cadre pour le développement de sites web universels, optimisés pour les
+          Next.js, couplé à React.js, offre un cadre pour le développement de sites web universels, optimisés pour les
           performances. Avec TypeScript, cette stack garantit un code fiable et typé, assurant ainsi une meilleure
           qualité et une maintenance aisée des projets. Un trio idéal pour des applications web modernes et scalables.
         </FeatureCardDescription>
@@ -165,7 +165,7 @@ export function Stack() {
               <SectionTitle>Stack technique</SectionTitle>
 
               <SectionDescription>
-                Une stack basé sur javascript, avec <span className="text-white">React</span> et{" "}
+                Une stack basé sur javascript, avec <span className="text-white">React.js</span> et{" "}
                 <span className="text-white">Node.js</span>
               </SectionDescription>
             </SectionHeading>
