@@ -17,7 +17,7 @@ import {
 import { DiNpm } from "react-icons/di"
 import { GrUbuntu } from "react-icons/gr"
 import { TbBrandVscode } from "react-icons/tb"
-import figmaImg from "/images/figma.png"
+import figmaImg from "../images/figma.png"
 import Image from "next/image"
 import { BsFillBootstrapFill, BsFillTerminalFill, BsGit, BsTrello } from "react-icons/bs"
 import { AiFillGithub, AiFillGitlab } from "react-icons/ai"

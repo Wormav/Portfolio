@@ -1,10 +1,10 @@
 import { SectionWrapperRounded, SectionHeading, SectionTitle, SectionDescription } from "./Section"
 import { BaseSpotlightCard } from "./SpotlightCard"
 import Image from "next/image"
-import playtrackerImg from "/images/playtracker.png"
-import CEImg from "/images/ce.png"
-import SelfServiceImg from "/images/selfService.png"
-import GroupomaniaImg from "/images/groupomania.jpeg"
+import playtrackerImg from "../images/playtracker.png"
+import CEImg from "../images/ce.png"
+import SelfServiceImg from "../images/selfService.png"
+import GroupomaniaImg from "../images/groupomania.jpeg"
 import { AiOutlineLink } from "react-icons/ai"
 
 function FeatureCard({ children }) {
