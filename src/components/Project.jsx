@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import { SectionWrapperRounded, SectionHeading, SectionTitle, SectionDescription } from "./Section"
 import { BaseSpotlightCard } from "./SpotlightCard"
 import Image from "next/image"
@@ -33,7 +34,7 @@ function Playtracker() {
         </p>
         <Image
           className="mt-5 h-auto w-full rounded-xl border border-white/10 shadow-md shadow-zinc-950/50 lg:rounded-2xl"
-          alt="App screenshot"
+          alt="Capture d'écran de l'application"
           unoptimized
           src={playtrackerImg}
         />
@@ -46,12 +47,13 @@ function Playtracker() {
             Site
           </a>
         </div>
-        <div className="flex justify-between">
-          <span className="font-bold">React.js</span>
-          <span className="font-bold">Node.js</span>
-          <span className="font-bold">Prisma</span>
-          <span className="font-bold">PostgresSQL</span>
-          <span className="font-bold">Nginx</span>
+        <div className="mt-5 flex flex-wrap items-center justify-start gap-3">
+          <img src="https://img.shields.io/badge/Frontend-React.js-blue" alt="Badge" />
+          <img src="https://img.shields.io/badge/Backend-Node.js-green" alt="Badge" />
+          <img src="https://img.shields.io/badge/ORM-Prisma-black" alt="Badge" />
+          <img src="https://img.shields.io/badge/Database-PostgresSQL-blue" alt="Badge" />
+          <img src="https://img.shields.io/badge/Server-NGINX-green" alt="Badge" />
+          <img src="https://img.shields.io/badge/Package-React_query-orange" alt="Badge" />
         </div>
       </div>
     </FeatureCard>
@@ -72,16 +74,17 @@ function CSE() {
         </p>
         <Image
           className="mt-3 h-auto w-full rounded-xl border border-white/10 shadow-md shadow-zinc-950/50 lg:rounded-2xl"
-          alt="App screenshot"
+          alt="Capture d'écran de l'application"
           unoptimized
           src={CEImg}
         />
-        <div className="mt-5 flex justify-between">
-          <span className="font-bold">React.js</span>
-          <span className="font-bold">Node.js</span>
-          <span className="font-bold">Prisma</span>
-          <span className="font-bold">PostgresSQL</span>
-          <span className="font-bold">Nginx</span>
+        <div className="mt-5 flex flex-wrap items-center justify-start gap-3">
+          {" "}
+          <img src="https://img.shields.io/badge/Frontend-React.js-blue" alt="Badge" />
+          <img src="https://img.shields.io/badge/Backend-Node.js-green" alt="Badge" />
+          <img src="https://img.shields.io/badge/ORM-Prisma-black" alt="Badge" />
+          <img src="https://img.shields.io/badge/Database-PostgresSQL-blue" alt="Badge" />
+          <img src="https://img.shields.io/badge/Server-NGINX-green" alt="Badge" />
         </div>
       </div>
     </FeatureCard>
@@ -101,15 +104,16 @@ function SelfserviceToIcal() {
         </p>
         <Image
           className=" mt-5 h-auto w-full rounded-xl border border-white/10 shadow-md shadow-zinc-950/50 lg:rounded-2xl"
-          alt="App screenshot"
+          alt="Capture d'écran de l'application"
           unoptimized
           src={SelfServiceImg}
         />
-        <div className="mt-5 flex justify-between">
-          <span className="font-bold">Node.js</span>
-          <span className="font-bold">MongoDB</span>
-          <span className="font-bold">Express</span>
-          <span className="font-bold">Puppeteer</span>
+        <div className="mt-5 flex flex-wrap items-center justify-start gap-3">
+          {" "}
+          <img src="https://img.shields.io/badge/Backend-Node.js-green" alt="Badge" />
+          <img src="https://img.shields.io/badge/Database-MongoDB-green" alt="Badge" />
+          <img src="https://img.shields.io/badge/Package-Express-orange" alt="Badge" />
+          <img src="https://img.shields.io/badge/Package-Puppeteer-orange" alt="Badge" />
         </div>
       </div>
     </FeatureCard>
@@ -128,7 +132,7 @@ function Groupomania() {
         </p>
         <Image
           className="mt-5 h-auto w-full rounded-xl border border-white/10 shadow-md shadow-zinc-950/50 lg:rounded-2xl"
-          alt="App screenshot"
+          alt="Capture d'écran de l'application"
           unoptimized
           src={GroupomaniaImg}
         />
@@ -141,11 +145,12 @@ function Groupomania() {
             Github
           </a>
         </div>
-        <div className="mt-5 flex justify-between">
-          <span className="font-bold">React.js</span>
-          <span className="font-bold">Node.js</span>
-          <span className="font-bold">MySQL</span>
-          <span className="font-bold">Express</span>
+        <div className="mt-5 flex flex-wrap items-center justify-start gap-3">
+          {" "}
+          <img src="https://img.shields.io/badge/Frontend-React.js-blue" alt="Badge" />
+          <img src="https://img.shields.io/badge/Backend-Node.js-green" alt="Badge" />
+          <img src="https://img.shields.io/badge/Database-MySQL-white" alt="Badge" />
+          <img src="https://img.shields.io/badge/Package-Express-orange" alt="Badge" />
         </div>
       </div>
     </FeatureCard>
