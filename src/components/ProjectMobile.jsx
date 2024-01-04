@@ -2,10 +2,10 @@
 import { SectionWrapperRounded, SectionHeading, SectionTitle, SectionDescription } from "./Section"
 import { BaseSpotlightCard } from "./SpotlightCard"
 import Image from "next/image"
-import tinderImg from "../images/tinder.png"
-import todoImg from "../images/todo.png"
-import weaterImg from "../images/weater.png"
-import airbnbImg from "../images/airbnb.png"
+import tinder from "../images/tinder.png"
+import todo from "../images/todo.png"
+import weater from "../images/weater.png"
+import airbnb from "../images/airbnb.png"
 import { AiOutlineLink } from "react-icons/ai"
 
 function FeatureCard({ children }) {
@@ -35,7 +35,7 @@ function TwoDoList() {
           className="mt-5 rounded-xl border border-white/10 shadow-md shadow-zinc-950/50 lg:rounded-2xl"
           alt="Capture d'écran de l'application"
           unoptimized
-          src={todoImg}
+          src={todo}
         />
         <div className="mr-5 mt-8 flex flex-col items-center justify-center gap-4 pb-12 lg:flex-row">
           <a
@@ -68,7 +68,7 @@ function WeatherApp() {
           className="mt-5 rounded-xl border border-white/10 shadow-md shadow-zinc-950/50 lg:rounded-2xl"
           alt="Capture d'écran de l'application"
           unoptimized
-          src={weaterImg}
+          src={weater}
         />
         <div className="mr-5 mt-8 flex flex-col items-center justify-center gap-4 pb-12 lg:flex-row">
           <a
@@ -103,7 +103,7 @@ function Airbnb() {
           className="mt-5 rounded-xl border border-white/10 shadow-md shadow-zinc-950/50 lg:rounded-2xl"
           alt="Capture d'écran de l'application"
           unoptimized
-          src={airbnbImg}
+          src={airbnb}
         />
         <div className="mr-5 mt-8 flex flex-col items-center justify-center gap-4 pb-12 lg:flex-row">
           <a
@@ -140,7 +140,7 @@ function Tinder() {
           className="mt-5 rounded-xl border border-white/10 shadow-md shadow-zinc-950/50 lg:rounded-2xl"
           alt="Capture d'écran de l'application"
           unoptimized
-          src={tinderImg}
+          src={tinder}
         />
         <div className="mr-5 mt-8 flex flex-col items-center justify-center gap-4 pb-12 lg:flex-row">
           <a
