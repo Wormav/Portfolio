@@ -2,10 +2,10 @@
 import { SectionWrapperRounded, SectionHeading, SectionTitle, SectionDescription } from "./Section"
 import { BaseSpotlightCard } from "./SpotlightCard"
 import Image from "next/image"
-import tinder from "../images/tinder.png"
-import todo from "../images/todo.png"
-import weater from "../images/weater.png"
-import airbnb from "../images/airbnb.png"
+import tinder from "../images/tinder-app.png"
+import todo from "../images/todo-app.png"
+import weater from "../images/weater-app.png"
+import airbnb from "../images/airbnb-app.png"
 import { AiOutlineLink } from "react-icons/ai"
 
 function FeatureCard({ children }) {
