@@ -138,7 +138,7 @@ function Groupomania() {
         />
         <div className="mr-5 mt-8 flex flex-col items-center justify-center gap-4 lg:flex-row">
           <a
-            href="https://playtracker.app/"
+            href="https://github.com/Wormav/Groupomania"
             target="_blank"
             className="z-10 flex cursor-pointer items-center justify-center rounded-full bg-white px-4 py-1.5  text-sm font-medium text-zinc-950 transition duration-300 hover:bg-zinc-300">
             <AiOutlineLink className="mr-2" />
@@ -157,14 +157,14 @@ function Groupomania() {
   )
 }
 
-export function Project() {
+export function ProjectWeb() {
   return (
-    <SectionWrapperRounded id="project">
+    <SectionWrapperRounded id="project-web">
       <SectionHeading>
-        <SectionTitle>Projets</SectionTitle>
+        <SectionTitle>Projets web</SectionTitle>
         <SectionDescription>
-          Voici mes projets, il s&apos;agit de projet personnel, de projet de formation ou alors de projet réalisé en
-          mission freelance
+          Voici mes projets web, il s&apos;agit de projet personnel, de projet de formation ou alors de projet réalisé
+          en mission freelance
         </SectionDescription>
       </SectionHeading>
       <div className="mt-8 grid gap-4 lg:mt-16 lg:grid-cols-2 lg:gap-8">

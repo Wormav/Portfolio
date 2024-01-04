@@ -13,8 +13,12 @@ const links = [
     url: "#stack-technique",
   },
   {
-    title: "Projets",
-    url: "#project",
+    title: "Projets web",
+    url: "#project-web",
+  },
+  {
+    title: "Projets mobile",
+    url: "#project-mobile",
   },
   {
     title: "Formations",
@@ -45,7 +49,7 @@ function Navigation() {
   )
 }
 
-function MobileMenu({ showMenu }) {
+function MobileMenu({ showMenu, setShowMenu }) {
   return (
     showMenu && (
       <div className="py-4">
@@ -54,6 +58,7 @@ function MobileMenu({ showMenu }) {
             <li key={index}>
               <a
                 href={link.url}
+                onClick={() => setShowMenu(false)}
                 className="inline-block text-base font-medium text-white/75 transition hover:text-white">
                 {link.title}
               </a>
@@ -85,9 +90,7 @@ export function Header() {
                 <Logo className="text-lg font-normal lg:text-2xl" />
               </a>
             </div>
-
             <Navigation />
-
             <button
               onClick={() => setShowMenu(!showMenu)}
               type="button"
@@ -102,7 +105,7 @@ export function Header() {
           </nav>
         </header>
 
-        <MobileMenu showMenu={showMenu} />
+        <MobileMenu showMenu={showMenu} setShowMenu={setShowMenu} />
       </SectionWrapper>
     </div>
   )

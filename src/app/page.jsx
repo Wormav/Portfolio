@@ -1,6 +1,7 @@
 import { Header } from "@/components/Header"
 import { Hero } from "@/components/Hero"
-import { Project } from "@/components/Project"
+import { ProjectWeb } from "@/components/ProjectWeb"
+import { ProjectMobile } from "@/components/ProjectMobile"
 import { Certifications } from "@/components/Certifications"
 import { Skills } from "@/components/Skills"
 import { Stack } from "@/components/Stack"
@@ -16,7 +17,8 @@ export default function Home() {
       <Header />
       <Hero />
       <Stack />
-      <Project />
+      <ProjectWeb />
+      <ProjectMobile />
       <Certifications />
       <Skills />
     </>
