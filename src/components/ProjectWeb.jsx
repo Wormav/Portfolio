@@ -40,11 +40,11 @@ function Playtracker() {
         />
         <div className="mr-5 mt-8 flex flex-col items-center justify-center gap-4 pb-12 lg:flex-row">
           <a
-            href="https://playtracker.app/"
+            href="https://github.com/Wormav/GameTrack"
             target="_blank"
             className="z-10 flex cursor-pointer items-center justify-center rounded-full bg-white px-4 py-1.5  text-sm font-medium text-zinc-950 transition duration-300 hover:bg-zinc-300">
             <AiOutlineLink className="mr-2" />
-            Site
+            Github
           </a>
         </div>
         <div className="mt-5 flex flex-wrap items-center justify-start gap-3">
