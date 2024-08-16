@@ -13,9 +13,16 @@ export function Hero() {
           <h1 className="group text-center font-display text-3xl font-light leading-tight lg:text-5xl">
             <span>Jérémy Lorette</span>
             <br />
+			<br />
             <span>Développeur </span>
             <span className="bg-gradient-to-br from-white/90 to-white/30 bg-clip-text text-transparent">
               Web & Mobile
+            </span>
+			<br />
+			<br />
+            <span>Étudiant </span>
+            <span className="bg-gradient-to-br from-white/90 to-white/30 bg-clip-text text-transparent">
+			42 Angoulême
             </span>
           </h1>
           <h2 className="mt-8 max-w-xl text-center text-lg text-white/60 lg:text-xl">

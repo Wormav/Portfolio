@@ -5,7 +5,7 @@ import {
   SiAdobeillustrator,
   SiAdobephotoshop,
   SiCss3,
-  SiExpress,
+  SiFlutter,
   SiMongodb,
   SiMysql,
   SiNextdotjs,
@@ -66,7 +66,7 @@ function Tech() {
         <SiPrisma className="mb-5 w-1/2 text-white" />
         <SiMongodb className="mb-5 w-1/2 text-green-500" />
         <BiLogoPostgresql className="mb-5 w-1/2 text-blue-500" />
-        <SiExpress className="mb-5 w-1/2 text-white" />
+        <SiFlutter className="mb-5 w-1/2 text-blue-600" />
         <BsFillTerminalFill className="mb-5 w-1/2 text-white" />
       </div>
     </SpotlightCard>
